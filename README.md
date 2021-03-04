@@ -20,3 +20,5 @@ ios/Podfile 내 해당 부분 주석 처리
 #   flipper_post_install(installer)
 # end
 ```
+
+참고할 [Issues](https://github.com/facebook/react-native/issues/30836#issuecomment-774701342)
