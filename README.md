@@ -12,3 +12,11 @@ error Failed to build iOS project. We ran "xcodebuild" command but it exited wit
 ```
 
 Xcode 확인 결과 Flipper와 관련된 문제였음. 다음 [게시물](https://exerror.com/event2-event-config-h-file-not-found/)을 참고하여 해결.
+
+ios/Podfile 내 해당 부분 주석 처리
+```
+# use_flipper!
+# post_install do |installer|
+#   flipper_post_install(installer)
+# end
+```
